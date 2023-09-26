@@ -1,0 +1,61 @@
+\title{basic macros}
+
+\def\proof[body]{
+  \block{\b{Proof}.}{\body}
+}
+
+\def\labeled-proof[lbl][body]{
+  \block{\b{Proof} (\lbl).}{\body}
+}
+
+\def\Sub[arg1]{#{_{\arg1}}}
+\def\Sup[arg1]{#{^{\arg1}}}
+\def\SubSup[arg1][arg2]{#{_{\arg1}^{\arg2}}}
+
+\def\cat[arg1]{#{\mathsf{\arg1}}}
+\def\Hom[arg1][arg2]{#{\operatorname{Hom}(\arg1, \arg2)}}
+\def\HomC[arg1][arg2][arg3]{#{\operatorname{Hom}_{\arg1}(\arg2, \arg3)}}
+\def\EHom[arg1][arg2]{#{\underline{\operatorname{Hom}}(\arg1, \arg1)}}
+\def\End[arg1]{#{\operatorname{End}(\arg1)}}
+\def\EndC[arg1][arg2]{#{\operatorname{End}_{\arg1}(\arg2)}}
+\def\Aut[arg1]{#{\operatorname{Aut}(\arg1)}}
+\def\AutC[arg1][arg2]{#{\operatorname{Aut}_{\arg1}(\arg2)}}
+\def\idn[arg1]{#{\operatorname{id}\Sub{\arg1}}}
+\def\Idn[arg1]{#{\operatorname{Id}\Sub{\arg1}}}
+\def\Obj[arg1]{#{\operatorname{Obj}(\arg1)}}
+\def\Mor[arg1]{#{\operatorname{Mor}(\arg1)}}
+\def\lim{\operatorname{lim}}
+\def\colim{\operatorname{colim}}
+\def\comma[arg1][arg2]{#{{\arg1}\downarrow{\arg2}}}
+\def\op[arg1]{#{\arg1\Sup{\mathsf{op}}}}
+\def\Psh[arg1]{#{\operatorname{Psh}(\arg1)}}
+\def\Sh[arg1]{#{\operatorname{Sh}(\arg1)}}
+\def\Fun[arg1][arg2]{#{\operatorname{Fun}(\arg1, \arg2)}}
+\def\adj[arg1][arg2][arg3][arg4]{#{\arg1\negmedspace: \arg2\rightleftarrows \arg3:\negmedspace \arg4}}
+\def\comp[arg1][arg2]{#{\arg1 \mathbin{\circ} \arg2}}
+
+\def\coker[arg1]{#{\operatorname{coker}(\arg1)}}
+\def\im[arg1]{#{\operatorname{im}(\arg1)}}
+
+\def\N{#{\mathbb{N}}}
+\def\Z{#{\mathbb{Z}}}
+\def\Q{#{\mathbb{Q}}}
+\def\R{#{\mathbb{R}}}
+\def\C{#{\mathbb{C}}}
+\def\S{#{\mathbb{S}}}
+\def\A{#{\mathbb{A}}}
+\def\P{#{\mathbb{P}}}
+\def\D{#{\mathbb{D}}}
+\def\O{#{\mathcal{O}}}
+\def\pp{#{\mathfrak{p}}}
+\def\mm{#{\mathfrak{m}}}
+\def\nn{#{\mathfrak{n}}}
+\def\qq{#{\mathfrak{q}}}
+\def\aa{#{\mathfrak{a}}}
+
+\def\phi{#{\varphi}}
+\def\epsilon{#{\varepsilon}}
+\def\hat[arg1]{#{\widehat{\arg1}}}
+\def\tilde[arg1]{#{\widetilde{\arg1}}}
+
+\def\restrict[arg1]{#{!!\downharpoonright_{\thinspace \arg1}}}
