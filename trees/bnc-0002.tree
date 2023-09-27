@@ -1,0 +1,15 @@
+\title{Category}
+\date{2023-09-26}
+\author{brendanseamasmurphy}
+\taxon{definition}
+
+\import{base-macros}
+
+\p{A category \cat{C} consists of classes #{C_0}, #{C_1}, class functions #{s,t : C_1 \to C_0}, a common section #{\operatorname{id} : C_0 \to C_1} of #{s, t}, and a partial operator #{\circ : C_1 \times C_1 \rightharpoonup C_1} where #{\comp{f}{g}} is defined iff #{s(f) = t(g)}. The axioms of a category are:}
+\ol{
+  \li{#{s(\comp{f}{g}) = s(g)} and #{t(\comp{f}{g}) = t(f)} for any #{f, g\in C_1} such that #{s(f) = t(g)},}
+  \li{#{\comp{\idn{t(f)}}{f} = f = \comp{f}{\idn{s(f)}}} for any #{f\in C_1},}
+  \li{for any #{f, g, h \in C_1} such that #{s(f) = t(g)} and #{s(g) = t(h)}, ##{\comp{f}{(\comp{g}{h})} = \comp{(\comp{f}{g})}{h}.}}
+}
+\p{As above, we usually write #{\circ} as an infix operator and write application of #{\operatorname{id}} with a subscript.}
+\p{If #{x,y \in C_0} we define #{\HomC{\cat{C}}{x}{y} = s\Sup{-1}(x) \cap t\Sup{-1}(y)}, so #{\idn{x} \in \HomC{\cat{C}}{x}{x}}. For #{f \in C_1} we refer to #{s(f)} as the "source" of #{f} and #{t(f)} as the "target" of #{f}. A category \cat{C} is said to be small if #{C_1} is a set (which implies #{C_0} is a set) and to be locally small if \HomC{\cat{C}}{x}{y} is a set for all #{x, y \in C_0}. For a general category \cat{C} we refer to \HomC{\cat{C}}{x}{y} as a #{\operatorname{Hom}}-class of \cat{C}, and if \cat{C} is locally small we call it a #{\operatorname{Hom}}-\em{set}. We write \Obj{\cat{C}} for the class #{C_0} and \Mor{\cat{C}} for #{C_1}.}

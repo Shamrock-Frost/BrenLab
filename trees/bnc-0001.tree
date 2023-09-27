@@ -1,0 +1,12 @@
+\title{Foundations of category theory}
+\date{2023-09-26}
+\author{brendanseamasmurphy}
+\tag{top}
+
+\p{In the following we work in NBG set theory with the axiom of choice but not of global choice. I will probably crack at some point and bring in universes. I intend for these notes to be as self contained as possible, but that goal may change.}
+
+\transclude{bnc-0002}
+
+\transclude{bnc-0003}
+
+\transclude{bnc-0004}

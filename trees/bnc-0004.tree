@@ -1,0 +1,15 @@
+\title{Natural Transformation}
+\date{2023-09-26}
+\author{brendanseamasmurphy}
+\taxon{definition}
+
+\import{base-macros}
+
+\p{Let \cat{C}, \cat{D} be [categories](bnc-0002) and #{F, G : \cat{C} \to \cat{D}} [functors](bnc-0003) between them. The data of a natural transformation #{\alpha : F \to G} is a class function #{\Obj{\cat{C}} \to \Mor{\cat{D}}} (also denoted #{\alpha}). The axioms of a natural transformation are:}
+\ol{
+  \li{#{\alpha_x \in \HomC{\cat{D}}{F(x)}{G(x)}} for any #{x \in \Obj{\cat{C}}},}
+  \li{For any #{f \in \Mor{\cat{C}}}, if #{x = s(f)} and #{y = t(f)} then #{\comp{\alpha_y}{F(f)} = \comp{G(f)}{\alpha_x}}.}
+}
+
+\p{As above, we usually write application of natural transformations with a subscript.}
+\p{In analogy with representation theory we could think of #{\alpha} as an "intertwiner" betwen #{F} and #{G}. As functors are morphisms between categories, natural transformations are morphisms between categories. Also, if \cat{C} is a small category and #{F, G} are functors out of #{\cat{C} \to \cat{D}} then individual natural transformations #{F \to G} are sets, hence they can be collected into a class of all natural transformations #{F \to G}.}
