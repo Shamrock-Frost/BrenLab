@@ -7,9 +7,9 @@
 
 \p{Let \cat{C} and \cat{D} be [categories](bnc-0002). A functor #{F : \cat{C} \to \cat{D}} consists of class functions #{F_0 : \Obj{\cat{C}} \to \Obj{\cat{D}}} and #{F_1 : \Mor{\cat{C}} \to \Mor{\cat{D}}}. The axioms of a functor are:}
 \ol{
-  \li{#{F_1(\idn{x}) = \idn{F_0(x)}} for any #{x \in \cat{C}_0},}
-  \li{#{s(F_1(f)) = F_0(s(f))} and #{t(F_1(f)) = F_0(t(f))} for any #{f \in \cat{C}_1},}
-  \li{for any #{f, g \in C_1} if #{s(f) = t(g)} then #{F_1(\comp{f}{g}) = \comp{F_1(f)}{F_1(g)}}.}
+  \li{#{F_1(\idn{x}) = \idn{F_0(x)}} for any #{x \in \Obj{\cat{C}}},}
+  \li{#{s(F_1(f)) = F_0(s(f))} and #{t(F_1(f)) = F_0(t(f))} for any #{f \in \Mor{\cat{C}}},}
+  \li{for any #{f, g \in \Mor{\cat{C}}} if #{s(f) = t(g)} then #{F_1(\comp{f}{g}) = \comp{F_1(f)}{F_1(g)}}.}
 }
 
 \p{If \cat{C} is small then the functions #{F_0 : \Obj{\cat{C}} \to \Obj{\cat{D}}}, #{F_1 : \Mor{\cat{C}} \to \Mor{\cat{D}}} are actually sets (not proper classes), as their domains are sets. There is then a class of all functors #{\cat{C} \to \cat{D}} (even if \cat{D} is large). For #{x \in \Obj{\cat{C}}} and #{f \in \Mor{\cat{C}}} we'll generally write #{F(x)} to mean #{F_0(x)} and #{F(f)} to mean #{F_1(f)}; this is undoubtedly ambiguous, but it's usually clear which is meant from context.}
