@@ -59,3 +59,5 @@
 \def\tilde[arg1]{#{\widetilde{\arg1}}}
 
 \def\restrict[arg1]{#{!!\downharpoonright_{\thinspace \arg1}}}
+
+\def\stub[arg1]{\tex{\framebox{\textbf{TODO:} \arg1}}}

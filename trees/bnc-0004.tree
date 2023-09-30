@@ -11,5 +11,5 @@
   \li{For any #{f \in \Mor{\cat{C}}}, if #{x = s(f)} and #{y = t(f)} then #{\comp{\alpha_y}{F(f)} = \comp{G(f)}{\alpha_x}}.}
 }
 
-\p{As above, we usually write application of natural transformations with a subscript.}
+\p{As above, we usually write application of natural transformations with a subscript. Also, if a natural transformation has an inverse natural transformation we refer to it as a natural isomorphism.}
 \p{In analogy with representation theory we could think of #{\alpha} as an "intertwiner" betwen #{F} and #{G}. As functors are morphisms between categories, natural transformations are morphisms between functors. Also, if \cat{C} is a small category and #{F, G} are functors out of #{\cat{C} \to \cat{D}} then individual natural transformations #{F \to G} are sets, hence they can be collected into a class of all natural transformations #{F \to G}.}

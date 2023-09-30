@@ -1,0 +1,10 @@
+\title{Monoidal Category}
+\date{2023-09-28}
+\author{brendanseamasmurphy}
+\taxon{definition}
+
+\import{base-macros}
+
+\p{A monoidal category consists of a [category](bnc-0002) \cat{M}, a [functor](bnc-0003) #{\otimes : \cat{C} \times \cat{C} \to \cat{C}}, an object #{\mathbb{k}} of \cat{M}, and [natural isomorphisms](bnc-0004) #{\alpha_{x,y,z} : (x \otimes y) \otimes z \to  x \otimes (y \otimes z)}, #{\lambda_x : \mathbb{k} \otimes x \to x}, and #{\rho_x : x \otimes \mathbb{k} \to x}.}
+
+\stub{Draw triangle of unitors and pentagon axiom}
