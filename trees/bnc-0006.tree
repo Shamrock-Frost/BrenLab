@@ -1,0 +1,10 @@
+\title{Combinatorics and categories}
+\date{2023-09-30}
+\author{brendanseamasmurphy}
+
+\import{base-macros}
+
+\transclude{bnc-0007}
+\transclude{bnc-0008}
+\transclude{bnc-000B}
+\transclude{bnc-000C}

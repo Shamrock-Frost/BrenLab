@@ -1,0 +1,8 @@
+\title{The symmetric groups}
+\date{2023-10-1}
+\author{brendanseamasmurphy}
+\taxon{definition}
+
+\import{base-macros}
+
+\p{The symmetric group #{S_n}, defined with respect to a parameter #{n \in \N}, is the set of permutations of the #{n}-element set. Of course there is a proper class of #{n}-element sets and so for concreteness we define #{S_n} to be the group of self-bijections of the #{n}th ordinal #{\mathbf{n} = \{i \in \N \mid i < n\}}.}

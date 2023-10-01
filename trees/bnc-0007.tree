@@ -1,0 +1,8 @@
+\title{Simplex Category}
+\date{2023-09-30}
+\author{brendanseamasmurphy}
+\taxon{definition}
+
+\import{base-macros}
+
+\p{The simplex category is the category #{\Delta} whose objects are the finite ordinals #{\mathbf{n} = \{ i \in \N \mid i < n \} = \{0,\ldots,n-1\}} and whose morphisms are the order preserving maps; note #{\Delta} is a full subcategory of the category \cat{Pos} of posets. We include the empty set #{\mathbf{0}}, so in other conventions this would be called the "augmented simplex category" or the "algebraists' simplex category".}

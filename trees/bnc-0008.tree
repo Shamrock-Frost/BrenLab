@@ -1,0 +1,8 @@
+\title{Variants of the category of finite sets}
+\date{2023-09-30}
+\author{brendanseamasmurphy}
+\taxon{definition}
+
+\import{base-macros}
+
+\p{Let \cat{FinSet} be the category of finite sets. This is a large, locally small category but it has only countably many isomorphism classes. The set #{\omega} of finite ordinals (equivalently finite cardinals) contains exactly one object in each isomorphism class of \cat{FinSet}, hence if \cat{Fin} is the full subcategory of \cat{FinSet} on objects #{\omega} then the inclusion #{\cat{Fin} \hookrightarrow \cat{FinSet}} is essentially surjective. It is also manifestly fully faithful, i.e. an equivalence of categories (although it's consistent that there is no quasi-inverse, in the absence of global choice!). The fact that there is \em{exactly} one. Another small model for \cat{Fin} is the full subcategory \cat{HFinSet} of \cat{FinSet} on #{V_{\omega}}, the hereditarily finite sets. This latter model is nice in that it is closed under finite limits and colimits in a very strong sense: the \em{standard constructions} of (co)limits in \cat{Set} will produce hereditarily finite sets when applied to hereditarily finite diagrams of hereditarily finite sets. In summary we have full subcategory inclusions #{\cat{Fin} \subseteq \cat{HFinSet} \subseteq \cat{Set}}, each being an equivalence, and each of these categories is an elementary topos and the inclusion #{\cat{HFinSet} \subseteq \cat{Set}} preserves "explicit choices of (co)limits" when that makes sense.}
