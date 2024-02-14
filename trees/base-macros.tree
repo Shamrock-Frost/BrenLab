@@ -1,11 +1,11 @@
 \title{basic macros}
 
 \def\proof[body]{
-  \block{\b{Proof}.}{\body}
+  \block{\strong{Proof}.}{\body}
 }
 
 \def\labeled-proof[lbl][body]{
-  \block{\b{Proof} (\lbl).}{\body}
+  \block{\strong{Proof} (\lbl).}{\body}
 }
 
 \def\Sub[arg1]{#{_{\arg1}}}

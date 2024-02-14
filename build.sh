@@ -1,6 +1,6 @@
 #!/bin/bash
 
-opam exec -- forester build --dev --root bsm-0001 trees/
+opam exec -- forester build --dev --root BSM-0001 trees/
 for filename in output/*.xml; do
 gawk -i inplace -F '<source-path>' '
 NR <= 2 { print }
